@@ -37,13 +37,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>amazon Releases Repository</name>
-	      <url>http://13.235.74.211:9991/test/repository/amazon-snapshot/</url>
+	      <url>http://13.235.74.211:9991/test/repository/amazon-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>amazon Snapshot Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://13.235.74.211:9991/test/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
