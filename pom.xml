@@ -32,7 +32,21 @@
 			<scope>test</scope>
 		</dependency>
 
-	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>amazon Releases Repository</name>
+	      <url>http://13.235.74.211:9991/test/repository/amazon-snapshot/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>amazon Snapshot Repository </name>
+	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
